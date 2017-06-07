@@ -1,5 +1,4 @@
 import os
-
 #analogy of Linux whois command
 def get_info(url):
     command = "whois" + url
