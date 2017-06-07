@@ -6,5 +6,4 @@ def get_info(url):
     process = os.popen(command)
     results = str(process.read())
     return results
-
-print(get_info("reddit.com"))
+#print(get_info("github.com"))
