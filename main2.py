@@ -52,7 +52,7 @@ def get_robots_txt(url):
     data = io.TextIOWrapper(req, encoding='utf-8')
     return data.read()
 
-# notice that the command in this function will only work on linux, while in windows you have to download whois
+# notice that the command in this function will only work on linux,while in windows you have to download whois
 # https://technet.microsoft.com/en-us/sysinternals/whois.aspx
 def get_whois(url):
     command = "whois " + url
